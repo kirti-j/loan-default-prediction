@@ -4,8 +4,7 @@ import pickle
 
 st.set_page_config(page_title="Loan Default Prediction",page_icon="💳",layout="wide")
 
-model=pickle.load(open(r"C:\Users\Kirti\OneDrive\Desktop\Loan Default Prediction\models\full_pipeline.pkl","rb"))
-
+model = pickle.load(open("models/full_pipeline.pkl", "rb"))
 #basic css
 st.markdown("""
 <style>

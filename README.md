@@ -25,7 +25,7 @@ To build a machine learning model that accurately predicts loan repayment behavi
   - Ordinal Encoding (education level)  
   - Custom encoding (loan grade/subgrade)  
   - One-Hot Encoding (categorical features)  
-- Used **RobustScaler** to handle outliers  
+- Used RobustScaler to handle outliers  
 
 
 3️⃣ Model Building
